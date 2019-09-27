@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto&display=swap');
+
+
 body { 
 background-color: black;
-font-family: Helvetica;
+font-family: 'Roboto', helvetica, sans-serif;
 /*background-image: url("images/northernlightscrop.jpg");*/
  }
 
+h1{ 
+font-family: 'Bungee Inline', cursive;
+ }
 
  h1, h2, p, ul {
  	color: white;
@@ -15,6 +21,42 @@ img:hover {
   filter: alpha(opacity=70);
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+button {
+	align-items: center;
+}
+
+
+
+.sections {
+	align-items: center;
+}
 
 
  .row {
@@ -35,6 +77,9 @@ img:hover {
   vertical-align: left;
   width: 100%;
 }
+
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
