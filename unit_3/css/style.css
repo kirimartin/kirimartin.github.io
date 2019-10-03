@@ -30,7 +30,7 @@ ul {
 }
 
 li {
-  float: right;
+  float: left;
 }
 
 li a {
@@ -56,17 +56,21 @@ button {
 
 .sections {
 	align-items: center;
+
 }
 
 
- .row {
-  display: flex;
+ .row img{
+/*  display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
+  padding: 0 4px;*/
+  width: 25%;
+  float: left;
+
 }
 
 /* Create four equal columns that sits next to each other */
-.column {
+/*.column {
   flex: 24%;
   max-width: 25%;
   padding: 0 2px;
@@ -77,7 +81,7 @@ button {
   vertical-align: left;
   width: 100%;
 }
-
+*/
 
 
 
