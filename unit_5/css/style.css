@@ -7,8 +7,10 @@ font-family: 'Roboto', helvetica, sans-serif;
 /*background-image: url("images/northernlightscrop.jpg");*/
  }
 
-h1{ 
+.logo{ 
 font-family: 'Bungee Inline', cursive;
+float: left;
+margin-right: 4em;
  }
 
  h1, h2, p, ul {
@@ -33,7 +35,8 @@ ul {
 }
 
 li {
-  float: left;
+  float: right;
+  margin-top: 1em;
 }
 
 li a {
@@ -50,18 +53,25 @@ li a:hover {
   color: black;
 }
 
-
-button {
-	align-items: center;
+.about { 
+  margin: 4em;
+  padding: 2em;
+  border: 1px solid white;
 }
-
-
 
 .sections {
-	align-items: center;
-
+  margin: 1em;
+  padding: 0em;
+  border-bottom: 1px solid white;
+  display: block;
+  text-align: center;
 }
 
+.gallery { 
+  margin: 4em;
+  padding: 2em;
+  border: 1px solid white; 
+}
 
  .row img{
 /*  display: flex;
@@ -72,19 +82,49 @@ button {
 
 }
 
-/* Create four equal columns that sits next to each other */
-/*.column {
-  flex: 24%;
-  max-width: 25%;
-  padding: 0 2px;
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 0px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
-.column img {
-  margin-top: 2px;
-  vertical-align: left;
-  width: 100%;
+label {
+	color: white;
 }
-*/
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Add a background color and some padding around the form */
+.form {
+  background-color: black;
+  margin: 4em;
+  padding: 2em;
+  border: 1px solid white;
+
+}
+
+
 
 
 
