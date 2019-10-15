@@ -35,8 +35,7 @@ ul {
 }
 
 li {
-  float: right;
-  margin-top: 1em;
+  display: inline-block;
 }
 
 li a {
@@ -53,6 +52,11 @@ li a:hover {
   color: black;
 }
 
+.topnav { 
+text-align: right;
+ }
+
+ 
 .about { 
   margin: 4em;
   padding: 2em;
@@ -62,7 +66,7 @@ li a:hover {
 .sections {
   margin: 1em;
   padding: 0em;
-  border-bottom: 1px solid white;
+  border-bottom: 0px solid white;
   display: block;
   text-align: center;
 }
@@ -79,7 +83,12 @@ li a:hover {
   padding: 0 4px;*/
   width: 25%;
   float: left;
+}
 
+.row:after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
 /* Style inputs with type="text", select elements and textareas */

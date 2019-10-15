@@ -33,7 +33,7 @@ ul {
 }
 
 li {
-  float: left;
+  display: inline-block;
 }
 
 li a {
@@ -58,7 +58,7 @@ button {
 
 
 .sections {
-	align-items: center;
+	text-align: center;
 
 }
 
@@ -69,8 +69,13 @@ button {
   padding: 0 4px;*/
   width: 25%;
   float: left;
-
 }
+
+.row:after { 
+display: block;
+content: "";
+clear: both;
+ }
 
 /* Create four equal columns that sits next to each other */
 /*.column {
