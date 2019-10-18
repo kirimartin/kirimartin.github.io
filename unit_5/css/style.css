@@ -18,6 +18,21 @@ margin-right: 4em;
  }
 
 
+nav {
+  background-color: black;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
 
 
 
@@ -27,6 +42,14 @@ margin-right: 4em;
 }
 
 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -130,9 +153,8 @@ input[type=submit]:hover {
   margin: 4em;
   padding: 2em;
   border: 1px solid white;
-
+ /* width: 50%;*/
 }
-
 
 
 
