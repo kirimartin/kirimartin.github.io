@@ -84,14 +84,13 @@ nav {
 .about {
   position: absolute;
   width: 80%;
-  top: 25%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 2em;
   padding: 2em;
   border: 1px solid white;
 }
-
 
 
 .sections {
@@ -183,7 +182,7 @@ input[type=submit]:hover {
 
 #left {
     background-color: black;
-    border: 1px white solid;
+   /* border: 1px white solid;*/
     padding: 10px 40px;
     float: left;
     width: 25%;
