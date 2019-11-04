@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto&display=swap');
 
+ *{ 
+ box-sizing: border-box;
+  }
+
 
 body { 
 background-color: black;
@@ -11,6 +15,7 @@ font-family: 'Roboto', helvetica, sans-serif;
 font-family: 'Bungee Inline', sans-serif;
 float: left;
 margin-left: 1em;
+text-decoration: none;
  }
 
  h1, h2, p, ul {
@@ -49,8 +54,8 @@ li {
   display: inline-block;
 }
 
-li a {
-  display: block;
+li a, .gallerylink{
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -63,12 +68,16 @@ li a:hover {
   color: black;
 }
 
+
+.gallerylink:hover {
+  background-color: white;
+  color: black;
+}
+
 nav { 
-  overflow: hidden;
-  background-color: black;
-  text-align: right;
   margin-right: 1em;
-  clear: both;
+  float: right;
+  margin-top: 1em;
  }
 
 .gallerylink { 
@@ -83,12 +92,16 @@ nav {
   text-align: center;
 }
 
+header{ 
+border-bottom: 2px solid white
+ }
+
 
 /* Centered text */
 .about {
   position: absolute;
   width: 80%;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin: 2em;
@@ -114,7 +127,7 @@ nav {
  .row img{
 /*  display: flex;
   flex-wrap: wrap;*/
- /* padding: 1%;*/
+  padding: .25em;
   width: 25%;
   float: left;
 }
